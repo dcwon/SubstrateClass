@@ -1,0 +1,20 @@
+{
+  "name": "subscribe_template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "william",
+  "license": "UNLICENSED",
+  "private": "false",
+  "dependencies": {
+    "@polkadot/api": "^10.13.1",
+    "@polkadot/keyring": "^12.6.2",
+    "@polkadot/types": "^10.13.1",
+    "web3": "^4.8.0"
+  },
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.0"
+  }
+}
